@@ -120,7 +120,7 @@ www.URL.com
 
 - In the "Terminal" on [ubc.syzygy.ca](https://ubc.syzygy.ca/) type (*note - you will be asked to enter your Github username and password here*):
   ```
-  git push origin master
+  git push
   ```
 - Go back to your copy of the homework on [Github.com](https://github.com/) and check to see that you were successful in submitting this homework.
 
@@ -141,12 +141,14 @@ www.URL.com
 - use a motivating example (e.g., homework, updating a blog/website)
 - start by introducing version control using the Github website first 
 - use the command line to teach students to use git (as opposed to the GUI's out there)
+- teach on a need to know basis, for example with Git teach the simpler and less verbose versions of the commands
 - teach best practices of version control along with the version control tools
 - introduce more advanced Git and Github features over time (log, checkout, issues, pull requests, branching, etc)
 
 # When is it appropriate to use Git and Github as a course delivery system
-- Students have some computing background
 
-and/or...
+## When is it appropriate to use Git and Github as a course delivery system
+
+- Students have some computing background, and/or...
 
 - Students have motivation/need to use version control beyond your single course

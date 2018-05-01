@@ -102,8 +102,8 @@
 <ol class = 'build'>
 <li>What and why of version control</li>
 <li>Habit formation</li>
-<li>A tour through how we use Github as a course delivery system</li>
 <li>Hands-on: use Git and Github to edit a &quot;homework assignment&quot; and &quot;submit it&quot;</li>
+<li>A tour through how we use Github as a course delivery system</li>
 <li>Teaching Git and Github - pedagogical best practices</li>
 <li>When is it appropriate to use Git and Github as a course delivery system</li>
 </ol>
@@ -184,17 +184,112 @@ source: Software Carpentry Git lesson: <a href='http://swcarpentry.github.io/git
 </ul></li>
 </ul>
 
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Hands-on:</br> use Git and Github to edit a &quot;homework assignment&quot; and &quot;submit it&quot;</h2></hgroup><article  id="hands-on-use-git-and-github-to-edit-a-homework-assignment-and-submit-it" class="smaller ">
+
+</article></slide><slide class=""><hgroup><h2>Set-up</h2></hgroup><article  id="set-up" class="smaller ">
+
+<p><em>assuming you have a UBC cwl&#8230;</em></p>
+
+<ul class = 'build'>
+<li>Sign up for an account with <a href='https://github.com/' title=''>Github.com</a> (if you don&#39;t already have one)</li>
+<li>login to <a href='https://ubc.syzygy.ca/' title=''>ubc.syzygy.ca</a> with your cwl</li>
+<li>Click on:</li>
+</ul>
+
+<ol class = 'build'>
+<li>&quot;Start Server&quot;</li>
+<li>&quot;New&quot; &gt; &quot;Terminal&quot;</li>
+<li>enter the following (changing the values in the quotes to ones appropriate for your <a href='https://github.com/' title=''>Github.com</a> account) <code>git config --global user.name &quot;ttimbers&quot;&quot;   git config --global user.email &quot;tiffany.timbers@gmail.com&quot;</code></li>
+</ol>
+
+</article></slide><slide class=""><hgroup><h2>Activity overview</h2></hgroup><article  id="activity-overview" class="smaller ">
+
+<p>Now that we&#39;re set up to use Git, let&#39;s walk through a workflow very similar to what the students would do (and learn a little Git along the way!)</p>
+
+<ol class = 'build'>
+<li>Get your own copy of the example homework folder (Github repository)</li>
+<li>&quot;clone&quot;&quot; that copy to a place you can edit the files (e.g.,<a href='https://ubc.syzygy.ca/' title=''>ubc.syzygy.ca</a> or your own computer if you have already have Git installed there)</li>
+<li>Edit and save the changes to the files</li>
+<li>Use Git to log the changes (&quot;add&quot; and &quot;commit&quot;)</li>
+<li>Send the logged Git changes to Github (&quot;push&quot;) to submit the work</li>
+</ol>
+
+</article></slide><slide class=""><hgroup><h2>1. Get your own copy</h2></hgroup><article  id="get-your-own-copy" class="smaller ">
+
+<p>Go to the URL below and click on the &quot;Fork&quot; button (top right-hand corner)</p>
+
+<p>www.URL.com</p>
+
+</article></slide><slide class=""><hgroup><h2>2. &quot;clone&quot;&quot; that copy to a place you can edit the files</h2></hgroup><article  id="clone-that-copy-to-a-place-you-can-edit-the-files" class="smaller ">
+
+<ul class = 'build'>
+<li><p>Click on the &quot;Clone or download&quot; (green button) of the new website you were directed to. Copy the URL that pops up.</p></li>
+<li>Go back to the &quot;Terminal&quot; on <a href='https://ubc.syzygy.ca/' title=''>ubc.syzygy.ca</a> and type the following (replace URL with the URL you just copied): <code>git clone URL</code></li>
+<li><p>using &quot;TERMINAL&quot; navigate into that directory by typing NAME_OF_REPO</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>3. Edit and save the changes to the files</h2></hgroup><article  id="edit-and-save-the-changes-to-the-files" class="smaller ">
+
+<ul class = 'build'>
+<li>Click on the &quot;Home&quot; <a href='https://ubc.syzygy.ca/' title=''>ubc.syzygy.ca</a> tab in your browser and use the file navigator to find THIS_FILE in the NAME_OF_REPO directory/folder</li>
+<li>Follow the instructions to answer the homework questions</li>
+<li>Save the changes (File -&gt; Save)</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>4. Use Git to log the changes</h2></hgroup><article  id="use-git-to-log-the-changes" class="smaller ">
+
+<ul class = 'build'>
+<li>Go back to the &quot;Terminal&quot; on <a href='https://ubc.syzygy.ca/' title=''>ubc.syzygy.ca</a></li>
+<li>Ask Git what files were changed by typing: <code>git status</code></li>
+<li>log those changes to git by typing the following two lines into terminal: <code>git add THIS_FILE   git commit -m &quot;first attempt at homework questions&quot;</code></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>5. Send the logged Git changes to Github (&quot;push&quot;) to submit the work</h2></hgroup><article  id="send-the-logged-git-changes-to-github-push-to-submit-the-work" class="smaller ">
+
+<ul class = 'build'>
+<li>In the &quot;Terminal&quot; on <a href='https://ubc.syzygy.ca/' title=''>ubc.syzygy.ca</a> type (<em>note - you will be asked to enter your Github username and password here</em>): <code>git push origin master</code></li>
+<li>Go back to your copy of the homework on <a href='https://github.com/' title=''>Github.com</a> and check to see that you were successful in submitting this homework.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Reflect on workflow</h2></hgroup><article  id="reflect-on-workflow" class="smaller ">
+
+<ul class = 'build'>
+<li>its not easy!</li>
+<li>but its an essential skill for those who use computation!</li>
+</ul>
+
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>A tour through how we use Github as a course delivery system</h2></hgroup><article  id="a-tour-through-how-we-use-github-as-a-course-delivery-system" class="smaller ">
 
 <p><a href='https://github.ubc.ca/ubc-mds-2017' title=''>https://github.ubc.ca/ubc-mds-2017</a></p>
 
 <p><em>note - most of you will not have access to the link above</em></p>
 
-</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Hands-on: use Git and Github to edit a &quot;homework assignment&quot; and &quot;submit it&quot;</h2></hgroup><article  id="hands-on-use-git-and-github-to-edit-a-homework-assignment-and-submit-it" class="smaller ">
-
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Teaching Git and Github - pedagogical best practices</h2></hgroup><article  id="teaching-git-and-github---pedagogical-best-practices" class="smaller ">
 
-</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>When is it appropriate to use Git and Github as a course delivery system</h2></hgroup><article  id="when-is-it-appropriate-to-use-git-and-github-as-a-course-delivery-system" class="smaller "></article></slide>
+<p>(alternate slide title: Lessons learned&#8230;)</p>
+
+<ul class = 'build'>
+<li>go slowly and have the students practice many repetitions</li>
+<li>use a motivating example (e.g., homework, updating a blog/website)</li>
+<li>start by introducing version control using the Github website first</li>
+<li>use the command line to teach students to use git (as opposed to the GUI&#39;s out there)</li>
+<li>teach best practices of version control along with the version control tools</li>
+<li>introduce more advanced Git and Github features over time (log, checkout, issues, pull requests, branching, etc)</li>
+</ul>
+
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>When is it appropriate to use Git and Github as a course delivery system</h2></hgroup><article  id="when-is-it-appropriate-to-use-git-and-github-as-a-course-delivery-system" class="smaller ">
+
+</article></slide><slide class=""><hgroup><h2>&lt;&#8211;comment&#8211;&gt;</h2></hgroup><article  id="comment--" class="smaller ">
+
+<ul class = 'build'>
+<li>Students have some computing background</li>
+</ul>
+
+<p>and/or&#8230;</p>
+
+<ul class = 'build'>
+<li>Students have motivation/need to use version control beyond your single course</li>
+</ul></article></slide>
 
 
   <slide class="backdrop"></slide>
