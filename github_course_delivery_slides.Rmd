@@ -5,14 +5,12 @@ date: '<font size="5">May 2, 2018</font>'
 output:
   ioslides_presentation:
     widescreen: true
-    smaller: true
-    incremental: true
 ---
 
 ## Outline
 1. What and why of version control
 2. Habit formation
-3. Hands-on: use Git and Github to edit a "homework assignment" and "submit it"
+3. Hands-on: use Git and Github to edit "homework" and "submit it"
 4. A tour through how we use Github as a course delivery system
 5. Teaching Git and Github - pedagogical best practices
 6. When is it appropriate to use Git and Github as a course delivery system
@@ -45,11 +43,25 @@ output:
 
 ## How do we create version control habits in the UBC Master of Data Science program?
 <center><img src="img/git_n_github.png" height="100px" /></center>
+
+1. learning scaffolding and support
+2. reinforcement
+3. repitition
+
+## Learning scaffolding and support
+
 - Teach our students to use Git and Github on day 1 of the program
-- Reinforce the use of version control by:
-    - making it the required method of submitting work
-    - evaluating and assessing their performance in using version control (counts towards grades)
-- Repitition! Over 10 months, students use version control > 300 times to:
+- Use hands-on, live-coding, workshop-like approach
+- provide Git and Github cheatsheets and reading materials
+
+## Reinforcement!
+
+- Github is the required tool for submitting work
+- performance of using version control is evaluated and assessed (counts towards grades)
+    
+## Repitition! 
+
+Over 10 months, students use version control > 300 times to:
     - access and submit labs
     - access and submit quizzes
     - work iteratively on individual projects
@@ -57,7 +69,7 @@ output:
     - give and receive peer feedback
     - receive feedback from TAs and Instructors
 
-# Hands-on:</br> use Git and Github to edit a "homework assignment" and "submit it"
+# Hands-on:</br> use Git and Github to edit "homework" and "submit it"
 
 ## Set-up
 
@@ -88,7 +100,7 @@ Now that we're set up to use Git, let's walk through a workflow very similar to 
 
 Go to the URL below and click on the "Fork" button (top right-hand corner)
 
-www.URL.com
+https://github.com/UBC-MDS/eg_hwk
 
 ## 2. "clone"" that copy to a place you can edit the files
 
@@ -98,11 +110,11 @@ www.URL.com
   ```
   git clone URL
   ```
-- using "TERMINAL" navigate into that directory by typing NAME_OF_REPO
+- using "Terminal" navigate into that directory by typing `cd eg_hwk`
 
 ## 3. Edit and save the changes to the files
 
-- Click on the "Home" [ubc.syzygy.ca](https://ubc.syzygy.ca/) tab in your browser and use the file navigator to find THIS_FILE in the NAME_OF_REPO directory/folder
+- Click on the "Home" [ubc.syzygy.ca](https://ubc.syzygy.ca/) tab in your browser and use the file navigator to find `homework.md` in the `eg_hwk` directory/folder
 - Follow the instructions to answer the homework questions
 - Save the changes (File -> Save)
 
@@ -112,7 +124,7 @@ www.URL.com
 - Ask Git what files were changed by typing: `git status`
 - log those changes to git by typing the following two lines into terminal:
   ```
-  git add THIS_FILE
+  git add homework.md
   git commit -m "first attempt at homework questions"
   ```
 
@@ -125,8 +137,8 @@ www.URL.com
 - Go back to your copy of the homework on [Github.com](https://github.com/) and check to see that you were successful in submitting this homework.
 
 ## Reflect on workflow
-- its not easy!
-- but its an essential skill for those who use computation!
+- its not simple or easy! 
+- but its a powerful tool and an essential skill for those who use computation!
 
 # A tour through how we use Github as a course delivery system
 
@@ -141,7 +153,7 @@ www.URL.com
 - use a motivating example (e.g., homework, updating a blog/website)
 - start by introducing version control using the Github website first 
 - use the command line to teach students to use git (as opposed to the GUI's out there)
-- teach on a need to know basis, for example with Git teach the simpler and less verbose versions of the commands
+- teach on a need to know basis, for example with Git teach? the simpler and less verbose versions of the commands
 - teach best practices of version control along with the version control tools
 - introduce more advanced Git and Github features over time (log, checkout, issues, pull requests, branching, etc)
 
