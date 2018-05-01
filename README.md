@@ -20,7 +20,7 @@ https://github.com/UBC-MDS/eg_hwk/tree/master
 https://github.com/ttimbers/github_course_delivery_system/blob/master/hands_on.md
 
 ### Git cheat sheet 
-(see "Tracking changes" and "Remotes in GitHub" section
+(see "Tracking changes" and "Remotes in GitHub" section)</br>
 https://swcarpentry.github.io/git-novice/reference/
 
 ### Slides:
