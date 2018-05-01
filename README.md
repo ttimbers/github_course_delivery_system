@@ -14,14 +14,14 @@ in the MDS program and it will also introduce other Git and Github tools that
 are useful for teaching.
 
 ### Example Homework Repository:
-https://github.com/UBC-MDS/eg_hwk/tree/master
+https://github.com/UBC-MDS/eg_hwk
 
 ### Hands-on Activity Instructions:
 https://github.com/ttimbers/github_course_delivery_system/blob/master/hands_on.md
 
 ### Git cheat sheet 
-(see "Tracking changes" and "Remotes in GitHub" section)</br>
 https://swcarpentry.github.io/git-novice/reference/
+(see "Tracking changes" and "Remotes in GitHub" section)
 
 ### Slides:
-TBD
+To be added
