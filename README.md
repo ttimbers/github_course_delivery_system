@@ -15,6 +15,8 @@ This presentation will be a tour through the Github course delivery system used
 in the MDS program and it will also introduce other Git and Github tools that
 are useful for teaching.
 
+## Resources for today's workshop
+
 - [Example Homework Repository](https://github.com/UBC-MDS/eg_hwk)
 
 - [Hands-on Activity Instructions](https://github.com/ttimbers/github_course_delivery_system/blob/master/hands_on.md)
