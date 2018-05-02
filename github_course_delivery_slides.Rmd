@@ -1,5 +1,5 @@
 ---
-title: 'Github:</br><font size="7">for pedagogical purposes</font>'
+title: 'Github</br><font size="7">for pedagogical purposes</font>'
 author: '<font size="5">**Tiffany Timbers, Ph.D.**</br>Instructor, Master of Data Science program and Dept. Statistics</font>'
 date: '<font size="5">May 2, 2018</font>'
 output:
@@ -7,8 +7,8 @@ output:
     widescreen: true
 ---
 
-## Outline
-1. What and why of version control
+## Outline {.build}
+> 1. What and why of version control
 2. Habit formation
 3. Hands-on: use Git and Github to edit "homework" and "submit it"
 4. A tour through how we use Github as a course delivery system
@@ -17,12 +17,20 @@ output:
 
 # What and why of version control
 
-## What is version control?
+## What is version control? {.smaller}
 <center><img src="img/play-changes.svg" height="250px" /></center>
-<center>source: Software Carpentry Git lesson: http://swcarpentry.github.io/git-novice/</bp><p>
+<center>source: [Software Carpentry Git lesson](http://swcarpentry.github.io/git-novice/)</bp><p></center>
 
-<center><img src="img/git_n_github.png" height="100px" /></center>
+## What version control tooling? {.smaller}
+<center><img src="img/version_control_choice.png" height="450px" /></center>
+<center>source: [Stack Overflow Developer Survey Results 2017](https://insights.stackoverflow.com/survey/2017)</bp><p></center>
 
+## What version control tooling? 
+<center><i>"In 2017, the GitHub community reached 24 million developers."</i></br></center>
+<center><p>source: [Github](https://github.com/)</center>
+
+## What version control tooling?
+<center><img src="img/git_n_github.png" height="200px" /></center>
 
 ## Why of version control?
 <center><img src="img/version_control.png" height="500px" /></center>
@@ -37,39 +45,46 @@ output:
 *Behaviours arising from repetitive reinforcement learning that persist after removal or devaluation of reinforcements ([Smith & Graybiel, 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4826769/)).*</font> 
 
 ## Why do we care about creating version control habits?
-- Version control is an expected hourly/daily task of a professional Data Scientist (and many other computational jobs)
-- Takes significant cognitive effort for novices to use popular version control tools 
-- Behaviours that become habits require minimal cognitive effort, freeing up cognitive resources for other tasks
+> - Version control is an expected hourly/daily task of a professional Data Scientist (and many other computational jobs)
+> - Takes significant cognitive effort for novices to use version control tools 
+> - Behaviours that become habits require minimal cognitive effort, freeing up cognitive resources for other tasks
 
 ## How do we create version control habits in the UBC Master of Data Science program?
-<center><img src="img/git_n_github.png" height="100px" /></center>
+We provide:
 
-1. learning scaffolding and support
-2. reinforcement
-3. repitition
+  1. scaffolding and support for learning
+  2. reinforcement for desired behaviour
+  3. opportunities to practice (repetition)
 
-## Learning scaffolding and support
+## Learning scaffolding and support{.build}
 
-- Teach our students to use Git and Github on day 1 of the program
-- Use hands-on, live-coding, workshop-like approach
-- provide Git and Github cheatsheets and reading materials
+> - Teach our students to use Git and Github on day 1 of the program
+> - Use hands-on, live-coding, workshop-like approach
+> - provide Git and Github written tutorials, cheatsheets, etc
 
 ## Reinforcement!
 
-- Github is the required tool for submitting work
-- performance of using version control is evaluated and assessed (counts towards grades)
+> - Github is the required tool for submitting work
+> - performance of using version control is evaluated and assessed (counts towards grades)
     
-## Repitition! 
+## Repetition! 
 
 Over 10 months, students use version control > 300 times to:
-    - access and submit labs
-    - access and submit quizzes
-    - work iteratively on individual projects
-    - work collaboratively on group projects 
-    - give and receive peer feedback
-    - receive feedback from TAs and Instructors
+
+> - access and submit labs
+> - access and submit quizzes
+> - work iteratively on individual projects
+> - work collaboratively on group projects 
+> - give and receive peer feedback
+> - receive feedback from TAs and Instructors
 
 # Hands-on:</br> use Git and Github to edit "homework" and "submit it"
+
+----
+
+All instructions are linked to from the Github repository for this course: https://github.com/ttimbers/github_course_delivery_system
+
+----
 
 ## Set-up
 
@@ -78,13 +93,16 @@ Over 10 months, students use version control > 300 times to:
 - Sign up for an account with [Github.com](https://github.com/) (if you don't already have one)
 - login to [ubc.syzygy.ca](https://ubc.syzygy.ca/) with your cwl
 - Click on:
-  1. "Start Server"
-  2. "New" > "Terminal"
-  3. enter the following (changing the values in the quotes to ones appropriate for your [Github.com](https://github.com/) account)
-  ```
-  git config --global user.name "ttimbers""
-  git config --global user.email "tiffany.timbers@gmail.com"
-  ```
+  
+    1. "Start Server"
+    2. "New" > "Terminal"
+    3. enter the following (changing the values in the quotes to ones appropriate for your [Github.com](https://github.com/) account)
+    ```
+    git config --global user.name "ttimbers""
+    git config --global user.email "tiffany.timbers@gmail.com"
+    ```
+    
+    *note - the quotes are still necessary*
   
 ## Activity overview
 
@@ -107,10 +125,13 @@ https://github.com/UBC-MDS/eg_hwk
 - Click on the "Clone or download" (green button) of the new website you were directed to. Copy the URL that pops up.
 
 - Go back to the "Terminal" on [ubc.syzygy.ca](https://ubc.syzygy.ca/) and type the following (replace URL with the URL you just copied):
-  ```
-  git clone URL
-  ```
-- using "Terminal" navigate into that directory by typing `cd eg_hwk`
+    ```
+    git clone URL
+    ```
+- using "Terminal" navigate into that directory by typing: 
+    ```
+    cd eg_hwk
+    ```
 
 ## 3. Edit and save the changes to the files
 
@@ -123,17 +144,23 @@ https://github.com/UBC-MDS/eg_hwk
 - Go back to the "Terminal" on [ubc.syzygy.ca](https://ubc.syzygy.ca/) 
 - Ask Git what files were changed by typing: `git status`
 - log those changes to git by typing the following two lines into terminal:
-  ```
-  git add homework.md
-  git commit -m "first attempt at homework questions"
-  ```
+
+    ```
+    git add homework.md
+
+    git commit -m "first attempt at homework questions"
+    ```
+
+*note the message in the quotes is required but can (and should) be customized each time you log changes*
 
 ## 5. Send the logged Git changes to Github ("push") to submit the work
 
 - In the "Terminal" on [ubc.syzygy.ca](https://ubc.syzygy.ca/) type (*note - you will be asked to enter your Github username and password here*):
-  ```
-  git push
-  ```
+
+    ```
+    git push
+    ```
+  
 - Go back to your copy of the homework on [Github.com](https://github.com/) and check to see that you were successful in submitting this homework.
 
 ## Reflect on workflow
@@ -142,25 +169,54 @@ https://github.com/UBC-MDS/eg_hwk
 
 # A tour through how we use Github as a course delivery system
 
+## rhomboid
+A set of tools for delivering a course on GitHub:
+
+<div class="columns-2">
+  - collection of Python scripts
+  - most act to get or send data to the Github API
+  - instructors interact with rhomboid via the command line/terminal
+  - students interact with Git and Github
+  - Github repository: https://github.com/mgelbart/rhomboid
+  
+  
+  <img src="img/Staff_Michael-headshots-web.jpg" height="200px" /></br>
+  Michael Gelbart, Ph.D.
+</div>
+
+## rhomboid in action
+
 [https://github.ubc.ca/ubc-mds-2017](https://github.ubc.ca/ubc-mds-2017)
 
 *note - most of you will not have access to the link above*
 
 # Teaching Git and Github - pedagogical best practices
+
+## Teaching Git and Github - pedagogical best practices{.build}
 (alternate slide title: Lessons learned...)
 
-- go slowly and have the students practice many repetitions
-- use a motivating example (e.g., homework, updating a blog/website)
-- start by introducing version control using the Github website first 
-- use the command line to teach students to use git (as opposed to the GUI's out there)
-- teach on a need to know basis, for example with Git teach? the simpler and less verbose versions of the commands
-- teach best practices of version control along with the version control tools
-- introduce more advanced Git and Github features over time (log, checkout, issues, pull requests, branching, etc)
+> - go slowly and have the students practice (many repetitions!)
+> - use a motivating example (e.g., homework, updating a blog/website)
+> - start by introducing version control using the Github website first 
+> - use the command line to teach students to use git (as opposed to the GUI's)
+> - teach only what is needed (`git push` instead of `git push origin master`)
+> - teach best practices of version control along with the tools
+> - introduce more advanced Git and Github features over time
 
 # When is it appropriate to use Git and Github as a course delivery system
 
-## When is it appropriate to use Git and Github as a course delivery system
+----
 
 - Students have some computing background, and/or...
 
 - Students have motivation/need to use version control beyond your single course
+
+## What we just covered 
+1. What and why of version control
+2. Habit formation
+3. Hands-on: use Git and Github to edit "homework" and "submit it"
+4. A tour through how we use Github as a course delivery system
+5. Teaching Git and Github - pedagogical best practices
+6. When is it appropriate to use Git and Github as a course delivery system
+
+# Questions?
