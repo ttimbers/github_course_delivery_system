@@ -1,3 +1,21 @@
+## Set-up
+
+*assuming you have a UBC cwl...*
+
+- Sign up for an account with [Github.com](https://github.com/) (if you don't already have one)
+- login to [ubc.syzygy.ca](https://ubc.syzygy.ca/) with your cwl
+- Click on:
+  
+    1. "Start Server"
+    2. "New" > "Terminal"
+    3. enter the following (changing the values in the quotes to ones appropriate for your [Github.com](https://github.com/) account)
+    ```
+    git config --global user.name "ttimbers""
+    git config --global user.email "tiffany.timbers@gmail.com"
+    ```
+    
+    *note - the quotes are still necessary*
+  
 ## Activity overview
 
 Now that we're set up to use Git, let's walk through a workflow very similar to what the students would do (and learn a little Git along the way!)
@@ -19,10 +37,13 @@ https://github.com/UBC-MDS/eg_hwk
 - Click on the "Clone or download" (green button) of the new website you were directed to. Copy the URL that pops up.
 
 - Go back to the "Terminal" on [ubc.syzygy.ca](https://ubc.syzygy.ca/) and type the following (replace URL with the URL you just copied):
-  ```
-  git clone URL
-  ```
-- using "Terminal" navigate into that directory by typing `cd eg_hwk`
+    ```
+    git clone URL
+    ```
+- using "Terminal" navigate into that directory by typing: 
+    ```
+    cd eg_hwk
+    ```
 
 ## 3. Edit and save the changes to the files
 
@@ -35,15 +56,21 @@ https://github.com/UBC-MDS/eg_hwk
 - Go back to the "Terminal" on [ubc.syzygy.ca](https://ubc.syzygy.ca/) 
 - Ask Git what files were changed by typing: `git status`
 - log those changes to git by typing the following two lines into terminal:
-  ```
-  git add homework.md
-  git commit -m "first attempt at homework questions"
-  ```
+
+    ```
+    git add homework.md
+
+    git commit -m "first attempt at homework questions"
+    ```
+
+*note the message in the quotes is required but can (and should) be customized each time you log changes*
 
 ## 5. Send the logged Git changes to Github ("push") to submit the work
 
 - In the "Terminal" on [ubc.syzygy.ca](https://ubc.syzygy.ca/) type (*note - you will be asked to enter your Github username and password here*):
-  ```
-  git push
-  ```
+
+    ```
+    git push
+    ```
+  
 - Go back to your copy of the homework on [Github.com](https://github.com/) and check to see that you were successful in submitting this homework.
