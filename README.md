@@ -1,5 +1,7 @@
 ## GitHub for pedagogical purposes
-author: Tiffany A. Timbers, Ph.D.
+Tiffany A. Timbers, Ph.D. 
+twitter: [@TiffanyTimbers](https://twitter.com/TiffanyTimbers)
+email: [tiffany.timbers@stat.ubc.ca](mailto:tiffany.timbers@stat.ubc.ca)
 
 Practice leads to habits; this is one central reason why we have chosen to use
 GitHub as a course delivery system for the Master of Data Science (MDS) program.
