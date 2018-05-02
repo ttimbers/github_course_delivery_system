@@ -20,3 +20,13 @@ are useful for teaching.
 - [Git cheat sheet](https://swcarpentry.github.io/git-novice/reference/) (see "Tracking changes" and "Remotes in GitHub" sections)
 
 - [Slides](https://github.com/ttimbers/github_course_delivery_system/blob/master/github_course_delivery_slides.pdf)
+
+## Want to learn more about Git, Github and Education?
+
+#### Git and Github tutorials
+- [Software Carpentry's lesson on version control with Git and Github](http://swcarpentry.github.io/git-novice/)
+- [Karl Broman's git/github (minimal) guide](http://kbroman.org/github_tutorial/)
+
+#### Github and Education
+- [Github Classroom](https://classroom.github.com/)
+- [Michael Gelbart's rhomboid](https://github.com/mgelbart/rhomboid) (classroom management system to work with Github Enterprise, used by [UBC Master of Data Science program](https://ubc-mds.github.io/))
