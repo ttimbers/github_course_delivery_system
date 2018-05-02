@@ -19,4 +19,4 @@ are useful for teaching.
 
 - [Git cheat sheet](https://swcarpentry.github.io/git-novice/reference/) (see "Tracking changes" and "Remotes in GitHub" sections)
 
-- Slides
+- [Slides](https://github.com/ttimbers/github_course_delivery_system/blob/master/github_course_delivery_slides.pdf)
